@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Alabama | Events in Alabama</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Poppins', sans-serif;
+        background-color: white;
+        color: #36384E;
+        font-size: 16px;
+      }
+      .nav-item {
+        display: inline-block;
+        padding: 0 10px;
+        white-space: nowrap;
+        color: #36384E;
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+        line-height: 20px;
+      }
+      .wrapper {
+        max-width: 100%;
+        padding: 24px 124px 48px;
+      }
+      .footer {
+        text-align: center;
+        margin-top: 64px;
+        padding: 32px 24px;
+        background-color: white;
+        color: #B10021;
+      }
+      .footer .links a {
+        margin: 0 10px;
+        font-weight: 500;
+        font-size: 16px;
+        color: #B10021;
+        text-decoration: none;
+      }
+      .footer img {
+        width: 20px;
+        margin: 0 6px;
+      }
+      .footer .copyright {
+        margin-top: 12px;
+        font-size: 12px;
+      }
+      .content-section {
+        margin-top: 0;
+        line-height: 1.8;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+      }
+      .section-title {
+        font-size: 32px;
+        font-weight: 600;
+        margin-top: 24px;
+        margin-bottom: 16px;
+        color: #36384E;
+        width: 100%;
+        text-align: left;
+      }
+      .highlight-bar {
+        width: 133px;
+        height: 12px;
+        background: #B10021;
+        border-radius: 18px;
+        margin: 0 auto 24px auto;
+      }
+      .place-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 32px;
+      }
+      .place-card {
+        max-width: 360px;
+        text-align: center;
+      }
+      .place-card img {
+        width: 100%;
+        border-radius: 12px;
+      }
+      .place-name {
+        margin-top: 12px;
+        font-size: 16px;
+        font-weight: 500;
+      }
+      .map-section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        text-align: left;
+      }
+      .map-section img {
+        width: 100%;
+        max-width: 1220px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin: 24px 0 0 0;
+      }
+      .map-section p {
+        max-width: 1220px;
+        margin: 24px auto 0;
+        text-align: center;
+      }
+      .geo-climate, .culture-recreation {
+        display: flex;
+        align-items: center;
+        gap: 64px;
+        justify-content: center;
+        margin: 48px auto;
+        max-width: 1220px;
+      }
+      .geo-climate img, .culture-recreation img {
+        width: 266px;
+        height: auto;
+        border-radius: 6px;
+      }
+      .geo-climate-text, .culture-recreation-text {
+        max-width: 720px;
+      }
+      .culture-recreation {
+        flex-direction: row-reverse;
+      }
+      .see-all-button {
+        text-align: center;
+        margin-top: 32px;
+      }
+      .see-all-button button {
+        padding: 10px 16px;
+        border: 1px solid #B10021;
+        background-color: white;
+        color: #B10021;
+        font-weight: 500;
+        font-size: 12px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Homepage" style="max-width: 100%; background: white;">
+      <div class="Header" style="padding: 48px 124px 12px; display: flex; justify-content: space-between; align-items: center;">
+        <div class="EventsInAlabama" style="color: #36384E; font-size: 24px; font-weight: 500; line-height: 20px;">Events in Alabama</div>
+        <div class="Navigation">
+          <a href="index.html" class="nav-item">Home</a>
+          <a href="events.html" class="nav-item">Events</a>
+          <a href="about.html" class="nav-item">About Alabama</a>
+          <a href="blog.html" class="nav-item">Blogs</a>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <div class="content-section">
+          <div class="section-title">About Alabama: A Guide to Events, Culture, and Exploration</div>
+          <div class="map-section">
+            <img src="assets/img/map.png" alt="Alabama Map">
+            <p>Alabama, affectionately known as the Heart of Dixie, combines rich historical heritage with vibrant modern culture and economic growth. Known for its warm climate and Southern hospitality, Alabama offers a unique living experience that blends traditional values with contemporary convenience.</p>
+          </div>
+
+          <div class="geo-climate">
+            <img src="assets/img/climate.png" alt="Climate Map">
+            <div class="geo-climate-text">
+              <p>Geography: Featuring a diverse landscape that includes mountains, forests, and beautiful Gulf Coast beaches, Alabama offers scenic beauty and a plethora of outdoor activities. The state is divided into five distinct geographic regions, each with its own unique characteristics and attractions.</p>
+              <p>Climate: Enjoy a temperate climate with mild winters and warm summers. This climate supports an array of outdoor activities year-round, perfect for those who thrive in a vibrant, natural environment.</p>
+            </div>
+          </div>
+
+          <div class="culture-recreation">
+            <img src="assets/img/cultural.png" alt="Cultural Image">
+            <div class="culture-recreation-text">
+              <p>Cultural Heritage: Alabama's rich history in the civil rights movement, and its significant contributions to music, particularly the blues, jazz, and country music, provide a deeply enriching cultural experience. Cities like Birmingham and Montgomery are cultural hubs with museums, music festivals, and theaters.</p>
+              <p>Recreational Activities: From hiking in the Appalachian foothills to relaxing on the sandy beaches of the Gulf Coast, Alabama offers recreational options for every interest. The state's parks and recreational areas provide ideal settings for camping, fishing, hiking, and boating.</p>
+            </div>
+          </div>
+
+          <div class="section-title" style="text-align: center; width: 100%;">Places to Visit</div>
+          <div class="highlight-bar"></div>
+          <div class="place-grid">
+            <div class="place-card">
+              <img src="assets/img/rocket.png" alt="U.S. Space & Rocket Center">
+              <div class="place-name">U.S. Space & Rocket Center</div>
+            </div>
+            <div class="place-card">
+              <img src="assets/img/beach.png" alt="Orange Beach">
+              <div class="place-name">Orange Beach</div>
+            </div>
+            <div class="place-card">
+              <img src="assets/img/helen.png" alt="Helen Keller Birthplace">
+              <div class="place-name">Helen Keller Birthplace</div>
+            </div>
+            <div class="place-card">
+              <img src="assets/img/grotto.png" alt="Ave Maria Grotto">
+              <div class="place-name">Ave Maria Grotto</div>
+            </div>
+            <div class="place-card">
+              <img src="assets/img/little.png" alt="Little River Canyon">
+              <div class="place-name">Little River Canyon National Preserve</div>
+            </div>
+            <div class="place-card">
+              <img src="assets/img/cheaha.png" alt="Cheaha State Park">
+              <div class="place-name">Cheaha State Park</div>
+            </div>
+          </div>
+          <div class="see-all-button">
+            <button>SEE ALL →</button>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="links">
+            <a href="#">About</a>
+            <a href="#">Contact us</a>
+            <a href="#">FAQs</a>
+            <a href="#">Terms and conditions</a>
+            <a href="#">Cookie policy</a>
+            <a href="#">Privacy</a>
+          </div>
+          <div style="margin: 12px 0;">
+            <img src="assets/img/facebook.png" alt="Facebook">
+            <img src="assets/img/insta.png" alt="Instagram">
+            <img src="assets/img/twitter.png" alt="Twitter">
+            <img src="assets/img/linkedin.png" alt="LinkedIn">
+          </div>
+          <div class="copyright">Copyright &copy; 2025 - Events in Alabama</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
